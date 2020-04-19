@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+<<<<<<< HEAD
+ @import "../node_modules/bootstrap/dist/css/bootstrap.css";
+ @import "../node_modules/font-awesome/css/font-awesome.css";
+=======
+@import "~bootstrap/dist/css/bootstrap.css";
+>>>>>>> e4a9e4ff4e316522054e4c704396c5bd17079ff7

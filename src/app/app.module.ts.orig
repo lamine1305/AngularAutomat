@@ -1,0 +1,27 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { KidComponent } from './kid/kid.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FormulaireAddKidComponent } from './formulaire-add-kid/formulaire-add-kid.component';
+//Import des modules http et formulaire//
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FamilyComponent } from './family/family.component';
+import { FormulaireAddFamilyComponent } from './formulaire-add-family/formulaire-add-family.component';
+import { GraphComponent } from './graph/graph.component';
+import { ChartsModule } from 'ng2-charts';
+import { NewSurveyComponent } from './new-survey/new-survey.component';
+<<<<<<< HEAD
+import { KidService } from 'services/kid.service';
+
+@NgModule({
+  declarations: [AppComponent, NavbarComponent, KidComponent, FormulaireAddKidComponent, FamilyComponent, FormulaireAddFamilyComponent, GraphComponent, NewSurveyComponent, OrganizationComponent, FormulaireAddOrganizationComponent],
+  imports: [ChartsModule, HttpClientModule, BrowserModule, AppRoutingModule,FormsModule,ReactiveFormsModule],
+  providers: [KidService],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

@@ -1,0 +1,50 @@
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            Résultat Requête SQL
+            <div class="row text-black">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-left form p-4">
+                    <div class="px-2">
+                        <form action="" class="justify-content-center" #form="ngForm">
+                            <div class="form-group">
+                             <div><b>Generation</b> </div>
+                                Entête du fichier 
+                                <input type="text" class="form-control" placeholder="D/jdd/results"
+                                [(ngModel)]="taskResultSql.eneteFile" name="repResult" id="repResult">                       
+                            </div>
+                            <div class="form-group">
+                                    nom du fichier avec répertoire 
+                                    <input type="text" class="form-control" placeholder="D/jdd/results"
+                                    [(ngModel)]="taskResultSql.nomFichierRepert" name="repResult" id="repResult">                       
+                                </div>
+                            <div class="form-group">
+                                        pré-requete 
+                                        <input type="text" class="form-control" placeholder="D/jdd/results"
+                                        [(ngModel)]="taskResultSql.preRequete" name="repResult" id="repResult">                       
+                             </div>
+                                <div class="form-group">
+                                    requête de génération du fichier 
+                                            <input type="text" class="form-control" placeholder="D/jdd/results"
+                                            [(ngModel)]="taskResultSql.requeteFichier" name="repResult" id="repResult">                       
+                                </div>     
+                            <br>
+                             <div><b>Comparaison </b> </div>
+                            <div class="form-group">
+                                Fichier généré 
+                                <input type="text" class="form-control" placeholder="DLT1"
+                                    [(ngModel)]="taskResultSql.fichierGenere" name="env" id="env">
+                            </div>
+
+                            <div class="form-group">
+                                fichier attendu 
+                                <input type="text" class="form-control" placeholder="VT1/DLT1,ISI ..."
+                                [(ngModel)]="taskResultSql.fichierAttendu" name="typ" id="typ">
+                            </div>
+                            <a (click)="retour()"><button class="btn btn-success pull-right"> Valider</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,384 @@
+.example-container {
+    width: 205px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(5, 7, 1);  
+  }
+
+  .scenario {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    padding: 10px 10px;
+    min-height: 8px;
+    border-radius: 0px;
+    line-height: 80%;
+  }
+
+  .description-du-test {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14x;
+    background:rgb(141, 119, 235);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .jdd {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    padding: 10px 10px;
+    min-height: 14px;
+    border-radius: 0px;
+    line-height: 80%;
+  }
+
+  .jdd-fichier {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(126, 223, 131);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  .jdd-sql {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(126, 223, 131);
+    border-radius: 5px;
+    line-height: 80%;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jdd-sqlFile {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(126, 223, 131);
+    border-radius: 5px;
+    line-height: 80%;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   .execution-du-test {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    padding: 10px 10px;
+    min-height: 14px;
+    border-radius: 0px;
+    line-height: 80%;
+  }
+
+  .execution-ihm {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(226, 150, 105);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .execution-ksh {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(226, 150, 105);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .execution-sql {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(226, 150, 105);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .execution-jms {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(226, 150, 105);
+    border-radius: 5px;
+    line-height: 80%;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .resultats {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    padding: 10px 10px;
+    min-height: 14px;
+    border-radius: 0px;
+    line-height: 80%;
+  }
+
+  .resultats-fichier {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(97, 219, 179);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .resultats-ksh {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(97, 219, 179);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .resultats-sql {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 20px;
+    background:rgb(97, 219, 179);
+    border-radius: 5px;
+    line-height: 80%;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rapports {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    padding: 10px 10px;
+    min-height: 14px;
+    border-radius: 0px;
+    line-height: 80%;
+  }
+
+  .rapports-excel {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(86, 118, 204);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .rapports-pdf {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(86, 118, 204);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rapports-texte {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(86, 118, 204);
+    border-radius: 5px;
+    line-height: 80%;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .outils {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    padding: 10px 10px;
+    min-height: 14px;
+    border-radius: 0px;
+    line-height: 80%;
+  }
+
+  .outils-lien {
+    color: white;
+    text-align:center;
+    min-height: 14px;
+    margin-bottom:5px;
+  }
+  
+  .outils-tempo {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 20px;
+    background:rgb(156, 167, 7);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .outils-tnr {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:rgb(156, 167, 7);
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:10px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .validation {
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    min-height: 25px;
+    background:red;
+    border-radius: 5px;
+    line-height: 130%;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu-ihm {
+    padding: 10px 10px;
+    border: solid 10px #ccc;
+    min-height: 40px;
+    background :grey;
+    border-radius: 0px;
+    overflow: hidden;
+    display: block;
+  }
+
+  .scenario-ihm {
+    padding: 10px 10px;
+    border: solid 10px #ccc;
+    min-height: 100px;
+    background :grey;
+    border-radius: 0px;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .clean-test {
+    color: white;
+    text-align:center;
+    border: solid 2px white;
+    min-height: 14px;
+    background:darkkhaki;
+    border-radius: 5px;
+    line-height: 80%;
+    margin-bottom:5px;
+    font-size:90%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .example-box:last-child {
+    border: none;
+  }
+  
+  .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }

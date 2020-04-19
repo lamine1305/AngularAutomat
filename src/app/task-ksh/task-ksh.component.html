@@ -1,0 +1,43 @@
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            LANCEMENT KSH
+            <div class="row text-black">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-left form p-4">
+                    <div class="px-2">
+                        <form action="" class="justify-content-center" #form="ngForm">
+                           
+                            <div class="form-group">
+                                Commande
+                                <textarea col='10' row='30' class="form-control"
+                                name="commandeksh"
+                                 id="commandeksh" placeholder="{{taskKsh.commandeksh}}"
+                                 [(ngModel)]="taskKsh.commandeksh" 
+                                 value="{{taskKsh.commandeksh}}">
+                                 </textarea>
+                            </div>
+
+                            <div class="form-group">
+                                    tempo before en ms :
+                                    <input type="text" class="form-control"
+                                    name="tempoAvant"
+                                     id="tempoAvant" placeholder="{{taskKsh.tempoAvant}}"
+                                     [(ngModel)]="taskKsh.tempoAvant" 
+                                     value="{{taskKsh.tempoAvant}}">
+                                </div>
+                                 <div class="form-group">
+                                        tempo after en ms :
+                                        <input type="text" class="form-control"
+                                        name="tempoApres"
+                                         id="tempoApres" placeholder="{{taskKsh.tempoApres}}"
+                                         [(ngModel)]="taskKsh.tempoApres" 
+                                         value="{{taskKsh.tempoApres}}">
+                                    </div>
+                            <a (click)="retour()"><button class="btn btn-success pull-right"> Valider</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

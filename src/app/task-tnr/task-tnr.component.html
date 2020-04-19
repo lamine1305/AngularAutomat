@@ -1,0 +1,32 @@
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            Ajout TNR
+            <div class="row text-black">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-left form p-4">
+                    <div class="px-2">
+                        <form action="" class="justify-content-center" #form="ngForm">
+                            <div class="form-group">
+                                <p>Ajout TNR : </p>
+
+                                <div>
+                                  <input type="radio" id="tnrOK" name="tnrOK" value="OUI"
+                                         checked >
+                                  <label for="tnr"> OUI </label>
+                                </div>
+                                
+                                <div>
+                                  <input type="radio" id="tnrOK" name="tnrOK" value={{taskTnr.ajoutTnr}}
+                                 
+                                  >
+                                  <label for="tnr">NON</label>
+                                </div>
+                                </div>
+                            <a (click)="retoure()"><button class="btn btn-success pull-right"> Valider</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

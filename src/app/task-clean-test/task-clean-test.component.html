@@ -1,0 +1,42 @@
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            Clean test
+            <div class="row text-black">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-left form p-4">
+                    <div class="px-2">
+                        <form action="" class="justify-content-center" #form="ngForm">
+                            <div class="form-group">
+                                <p>After / Before : </p>
+
+                                <div>
+                                  <input type="radio" id="afterBefore" name="after" value="after"
+                                         checked
+                                         [(ngModel)]="taskClean.afterBefore" name="afterBefore" id="afterBefore">                       
+                                  <label for="after"> AFTER </label>
+                                </div>
+                                
+                                <div>
+                                  <input type="radio" id="afterBefore" name="after" value="before"
+                                  [(ngModel)]="taskClean.afterBefore" name="afterBefore" id="afterBefore">                       
+                                  <label for="before">BEFORE</label>
+                                </div>
+                                <div class="form-group">
+                                    Requete de clean
+                                    <input type="text" class="form-control" placeholder="C:/" id ="reqClean" name="reqClean"
+                                    [(ngModel)]="taskClean.requeteClean" name="repResult" id="repResult">                       
+                                </div>
+                                <div class="form-group">
+                                    Repertoire de clean
+                                    <input type="text" class="form-control" placeholder="C:/jdd" id ="repClean" name="repClean"
+                                    [(ngModel)]="taskClean.repertoireClean" name="repResult" id="repResult">
+                                </div>
+                                </div>
+                            <a (click)="retour()"><button class="btn btn-success pull-right"> Valider</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

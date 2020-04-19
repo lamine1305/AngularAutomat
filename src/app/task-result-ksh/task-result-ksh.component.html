@@ -1,0 +1,63 @@
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            DESCRIPTION DU SCENARIO
+            <div class="row text-black">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-left form p-4">
+                    <div class="px-2">
+                        <form action="" class="justify-content-center" #form="ngForm">
+                            <div class="form-group">
+                              Nom du test 
+                                <input type="text" class="form-control" placeholder="C:/jdd">
+                            </div>
+
+                            <div class="form-group">
+                                Environnement
+                                <input type="text" class="form-control" placeholder="DLT1"
+                                    [(ngModel)]="task.description" name="env" id="env">
+                            </div>
+
+                            <div class="form-group">
+                                Type de test 
+                                <input type="text" class="form-control" placeholder="VT1/DLT1,ISI ..."
+                                [(ngModel)]="task.description" name="typ" id="typ">
+                            </div>
+
+                            <div class="form-group">
+                                Flux STM 
+                                <input type="text" class="form-control" placeholder="F12,C15 ..."
+                                [(ngModel)]="task.description" name="flux" id="flux">   
+                            </div>
+
+                            <div class="form-group">
+                                Séparateur de colonnes 
+                                <input type="text" class="form-control" placeholder=", / ; /| ..."
+                                [(ngModel)]="task.description" name="separateur" id="separateur">
+                           </div>
+
+                            <div class="form-group">
+                                Format date 
+                                <input type="text" class="form-control" placeholder="DD/MM/YYYY"
+                                [(ngModel)]="task.description" name="formatDate" id="formatDate">                         
+                            </div>
+
+                            <div class="form-group">
+                                Format date et heure 
+                                <input type="text" class="form-control" placeholder="DD/MM/YYYY :HHMMSS"
+                                [(ngModel)]="task.description" name="formatDateHeure" id="formatDateHeure">                         
+                            </div>
+
+                            <div class="form-group">
+                                Répertoire résultats
+                                <input type="text" class="form-control" placeholder="D/jdd/results"
+                                [(ngModel)]="task.description" name="repResult" id="repResult">                       
+                             </div>
+
+                            <a (click)="retour()"><button class="btn btn-success pull-right"> Valider</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

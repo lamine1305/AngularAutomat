@@ -1,0 +1,31 @@
+<div cdkDropListGroup>
+  <div class="example-container">
+    <div cdkDropList [cdkDropListData]="todo" class="menu-ihm" (cdkDropListDropped)="drop($event)">
+      <div *ngFor="let item of todoInit" cdkDrag class="{{item.police}}">
+        {{item.description}}
+        <i class="{{item.icone}}"></i>
+
+      </div>
+
+    </div>
+
+    <div class= "example-container" >
+      <br>
+    <button (click)="generateFile()" class="validation" name="validButton" id="validButton" > Validation</button>
+    </div>
+  </div>
+
+  <div class="example-container">
+    <div cdkDropList [cdkDropListData]="done" class="scenario-ihm" (cdkDropListDropped)="drop($event)">
+      <div *ngFor="let item of done" class="{{item[2]}}" (dblclick)="setDetail(item.instanceId)" class="example-box"
+        cdkDrag class="{{item.police}}">
+        {{item.description}}
+        <i class="{{item.icone}}"></i>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>

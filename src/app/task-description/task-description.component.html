@@ -1,0 +1,85 @@
+
+<section id="cover" class="min-vh-100">
+    <div id="cover-caption">
+        <div class="container">
+            DESCRIPTION DU SCENARIO
+            <div class="row text-black">
+                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-left form p-4">
+                    <div class="px-2">
+                        <form action="" class="justify-content-center" #form="ngForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control"
+                                    name="identifiant"
+                                    id="identifiant"
+                                    value="{{currentId}}"
+                                     >
+                            </div>
+                           
+                            <div class="form-group">
+                              Nom du test 
+                                <input type="text" class="form-control"
+                                name="nomTest"
+                                 id="nomTest" placeholder="{{taskDescr.nomTest}}"
+                                 [(ngModel)]="taskDesc.nomTest" name="typ" id="typ"
+                                 value="{{taskDescr.nomTest}}">
+                            </div>
+
+                            <div class="form-group">
+                                Environnement
+                                <input type="text" class="form-control" placeholder="{{taskDescr.env}}"
+                                    [(ngModel)]="taskDesc.env" name="env" id="env"
+                                    value="{{taskDescr.env}}" >
+                            </div>
+
+                            <div class="form-group">
+                                Type de test 
+                                <input type="text" class="form-control" placeholder="{{taskDescr.typeTest}}"
+                                [(ngModel)]="taskDesc.typeTest" name="typ" id="typ"
+                                value="{{taskDescr.typeTest}}">
+                            </div>
+
+                            <div class="form-group">
+                                Flux STM 
+                                <input type="text" class="form-control" placeholder="{{taskDescr.fluxStm}}"
+                                [(ngModel)]="taskDesc.fluxStm" name="flux" id="flux"
+                                value="{{taskDescr.fluxStm}}" >   
+                            </div>
+
+                            <div class="form-group">
+                                Séparateur de colonnes 
+                                <input type="text" class="form-control" placeholder="{{taskDescr.separateur}}"
+                                [(ngModel)]="taskDesc.separateur" name="separateur" id="separateur"
+                                value="{{taskDescr.separateur}}" >
+                           </div>
+
+                            <div class="form-group">
+                                Format date 
+                                <input type="text" class="form-control" placeholder="{{taskDescr.formatDate}}"
+                                [(ngModel)]="taskDesc.formatDate" name="formatDate" id="formatDate"
+                                value="{{taskDescr.formatDate}}" >                         
+                            </div>
+
+                            <div class="form-group">
+                                Format date et heure 
+                                <input type="text" class="form-control" placeholder="{{taskDescr.formatDateHeure}}"
+                                [(ngModel)]="taskDesc.formatDateHeure" name="formatDateHeure" id="formatDateHeure"
+                                value="{{taskDescr.formatDateHeure}}">                         
+                            
+                            </div>
+
+                            <div class="form-group">
+                                Répertoire résultats
+                                <input type="text" class="form-control" placeholder='{{taskDesc.repertoireResult}}'
+                                [(ngModel)]="taskDesc.repertoireResult" name="repResult" id="repResult"
+                                value="{{taskDescr.repertoireResult}}"
+                                >                       
+                             </div>
+
+                            <a (click)="retour()"><button class="btn btn-success pull-right"> Valider</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
